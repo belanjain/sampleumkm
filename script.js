@@ -17,7 +17,7 @@
    Ubah di sini untuk custom dasar tanpa perlu cari-cari
    ============================================================ */
 const CONFIG = {
-  WA_NUMBER:     '6285714218798',
+  WA_NUMBER:     '6285126470047',
   WA_GREETING:   'Halo Mama Cia! Saya mau pesan:',
   WA_DIRECT_MSG: 'Halo Mama Cia! Saya mau tanya-tanya dulu 😊',
 
