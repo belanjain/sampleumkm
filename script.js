@@ -18,8 +18,8 @@
    ============================================================ */
 const CONFIG = {
   WA_NUMBER:     '6285126470047',
-  WA_GREETING:   'Halo Mama Cia! Saya mau pesan:',
-  WA_DIRECT_MSG: 'Halo Mama Cia! Saya mau tanya-tanya dulu 😊',
+  WA_GREETING:   'Halo Ka! Saya mau pesan:',
+  WA_DIRECT_MSG: 'Halo Ka! Saya mau tanya-tanya dulu 😊',
 
   // ⬇️ Ganti link ini kalau ganti Google Sheets klien
   // Cara dapet link: File → Share → Publish to web → CSV → Copy link
