@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Waroeng Mama Cia – Snack & Drink</title>
+
+  <!-- ── Google Fonts ── -->
+  <!-- Fredoka One: judul & harga | Nunito: body text -->
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet"/>
+
+  <!-- ── Stylesheet utama ── -->
+  <!-- Edit style.css untuk ubah tampilan/warna/layout -->
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+
+  <!-- ============================================================
+       HERO SECTION
+       Ubah nama warung, tagline, dan emoji di sini
+       ============================================================ -->
+  <div class="hero">
+    <div class="hero-decor">👨‍🍳</div><!-- Ganti emoji sesuka hati -->
+    <div class="hero-badge">Snack & Drink</div>
+    <h1>"Waroeng <span>Mama Cia</span>"</h1>
+    <p>Enak, Murah, Bikin Nagih! 🔥</p><!-- Tagline bisa diubah -->
+  </div>
+
+
+  <!-- ============================================================
+       MENU SNACK
+       Untuk tambah/hapus item: edit array `snacks` di script.js
+       ============================================================ -->
+  <div class="section-title"><h2>🍟 Menu Snack</h2></div>
+  <div class="divider"></div>
+  <div class="menu-grid" id="snack-grid">
+    <!-- Kartu produk di-generate otomatis oleh script.js -->
+  </div>
+
+
+  <!-- ============================================================
+       MENU DRINK
+       Untuk tambah/hapus item: edit array `drinks` di script.js
+       ============================================================ -->
+  <div class="section-title"><h2>🥤 Menu Drink</h2></div>
+  <div class="divider"></div>
+  <div class="menu-grid" id="drink-grid">
+    <!-- Kartu produk di-generate otomatis oleh script.js -->
+  </div>
+
+
+  <!-- ============================================================
+       FOOTER CTA
+       Tombol WA besar di bagian bawah halaman
+       ============================================================ -->
+  <div class="footer-cta">
+    <p>Mau pesan langsung? Chat kami di WhatsApp!</p>
+    <a class="wa-btn" id="wa-direct" href="#" target="_blank">
+      <span class="wa-icon">💬</span> Pesan via WhatsApp
+    </a>
+  </div>
+
+
+  <!-- ============================================================
+       CART BAR (fixed bottom center)
+       Muncul otomatis saat ada item di keranjang
+       Dikelola sepenuhnya oleh script.js
+       ============================================================ -->
+  <div id="cart-bar">
+    <div class="cart-info">
+      🛒 <span id="cart-count">0</span> item &middot; <span id="cart-total">Rp 0</span>
+    </div>
+    <button id="cart-order-btn" onclick="orderViaWA()">Order WA 🚀</button>
+  </div>
+
+
+  <!-- ============================================================
+       FLOATING WA BUTTON (pojok kanan bawah)
+       Selalu terlihat, independen dari cart
+       Ganti href di script.js (variabel WA_NUMBER)
+       ============================================================ -->
+  <a id="wa-float" href="#" target="_blank" title="Chat WhatsApp">💬</a>
+
+
+  <!-- ============================================================
+       JAVASCRIPT
+       Semua logika (data menu, keranjang, WA) ada di script.js
+       ============================================================ -->
+  <script src="script.js"></script>
+
+
+</body>
+</html>
