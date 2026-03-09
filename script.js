@@ -215,7 +215,7 @@ function orderViaWA() {
 
 function setupTombolWALangsung() {
   const url = `https://wa.me/${CONFIG.WA_NUMBER}?text=${encodeURIComponent(CONFIG.WA_DIRECT_MSG)}`;
-  document.getElementById('wa-direct').href = url;
+  /* | document.getElementById('wa-direct').href = url; |--ini udah diapus footernya, delete komen buat aktif lagi   */
   document.getElementById('wa-float').href  = url;
 }
 
